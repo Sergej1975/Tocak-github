@@ -1,0 +1,31 @@
+
+------------------------------------------------------------------------------
+ERROR LOG of "C:\ALASKA\XPPW32\Projects\Tocak\TOCAK.EXE" Date: 07.12.2023 09:12:17
+
+Xbase++ version     : Xbase++ (R) Version 1.90.355
+Operating system    : Windows Vista 06.02 Build 09200
+------------------------------------------------------------------------------
+oError:args         :
+          -> VALTYPE: O CLASS: XbpPushButton
+oError:canDefault   : N
+oError:canRetry     : N
+oError:canSubstitute: N
+oError:cargo        : NIL
+oError:description  : Object has no member with this name
+oError:filename     : 
+oError:genCode      :         26
+oError:operation    : enabled
+oError:osCode       :          0
+oError:severity     :          2
+oError:subCode      :       2240
+oError:subSystem    : BASE
+oError:thread       :          1
+oError:tries        :          0
+------------------------------------------------------------------------------
+CALLSTACK:
+------------------------------------------------------------------------------
+Called from KREMENIP(180)
+Called from TESTLOZ(208)
+Called from (B)LOZINKI(154)
+Called from XBPPUSHBUTTON:HANDLEEVENT(964)
+Called from MAIN(34)

@@ -1,0 +1,56 @@
+[PROJECT]
+    DEBUG         = yes
+    VERSION       = 2.0
+    OPENFILES     = TOCCAK.ARC;PREGLED.PRG;MAIN.PRG;lozinki.prg;KJORTOCAK.PRG;IZVESTAJ.PRG;BARAJ.prg
+    PROJECT.XPJ
+
+[PROJECT.XPJ]
+    TOCAK.EXE
+
+[TOCAK.EXE]
+    COMPILE       = xpp
+    COMPILE_FLAGS = /wi /wl /wu /q /w
+    DEBUG_SAVE    = yes
+    GUI           = yes
+    LINKER        = alink
+    LINK_FLAGS    = 
+    RC_COMPILE    = arc
+    RC_FLAGS      = /v
+// $START-AUTODEPEND
+    TOCCAK.RES
+    STD.CH
+    SET.CH
+    NATMSG.CH
+    GET.CH
+    PROMPT.CH
+    MEMVAR.CH
+    COLLAT.CH
+    XBPGET.PRG
+    APPEVENT.CH
+    COMMON.CH
+    GRA.CH
+    XBP.CH
+    FONT.CH
+    XBPGETC.PRG
+    GETCOL.PRG
+    KIRLA855.PRG
+    TOOLTIP.PRG
+    APPEDIT.CH
+    APP.CH
+    APPBROW.CH
+    DIRECTRY.CH
+    BARAJ.obj
+    IZVESTAJ.obj
+    KJORTOCAK.obj
+    lozinki.obj
+    MAIN.obj
+    PREGLED.obj
+// $STOP-AUTODEPEND
+    TOCCAK.ARC
+    BARAJ.prg
+    IZVESTAJ.PRG
+    KJORTOCAK.PRG
+    lozinki.prg
+    MAIN.PRG
+    PREGLED.PRG
+
